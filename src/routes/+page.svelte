@@ -3,7 +3,7 @@
 </script>
 
 
-<!-- <h1>Welcome to CyberX</h1> -->
+<h1 class="min-h-screen text-4xl mt-20">Welcome to CyberX</h1>
 
 <div class="p-8">
 	<Alert>

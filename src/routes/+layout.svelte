@@ -1,19 +1,19 @@
 <script>
   import "../app.postcss";
-  import cyberxlg from "$lib/img/cyberxlogo.png"
+  import cyberxlg from "$lib/img/terminal.png"
   import { DarkMode } from 'flowbite-svelte';
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
   import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
 </script>
 
-<Navbar let:hidden let:toggle rounded color="form">
+<Navbar let:hidden let:toggle rounded color="form" style="opacity:85%;" class="fixed top-0">
   <NavBrand href="/">
-    <img src={cyberxlg} class="mr-3 h-6 sm:h-9" alt="Logo"/>
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Cyber X</span>
+    <img src={cyberxlg} class="mr-3 h-9 sm:h-11 dark:invert" alt="Logo"/>
+    <span class="self-center whitespace-nowrap text-2xl sm:text-3xl font-semibold dark:text-white">Cyber X</span>
   </NavBrand>
   <NavHamburger on:click={toggle} />
   <NavUl {hidden}>
-    <NavLi href="/" active={true}>Home</NavLi>
+    <NavLi href="/" active={false}>Home</NavLi>
     <NavLi href="/about">About</NavLi>
     <NavLi href="/services">Services</NavLi>
     <NavLi href="/pricing">Pricing</NavLi>
@@ -21,8 +21,8 @@
   </NavUl>
 </Navbar>
 
-<div class="flex justify-end m-2">
-  <DarkMode />
+<div class="fixed top-16 right-0 flex justify-center m-2">
+  <DarkMode class="text-black dark:text-white" />
 </div>
 
 
