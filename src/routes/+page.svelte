@@ -2,10 +2,11 @@
     import { Alert } from 'flowbite-svelte';
 </script>
 
+<div class="mt-24">
+	<h1 class="text-3xl font-semibold">Welcome to CyberX</h1>
+</div>
 
-<h1 class="min-h-screen text-4xl mt-20">Welcome to CyberX</h1>
-
-<div class="p-8">
+<div class="text-center p-8">
 	<Alert>
 		<span class="font-medium">Cyberx alert!</span> We Develope.
 	</Alert>

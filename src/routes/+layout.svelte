@@ -6,10 +6,10 @@
   import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
 </script>
 
-<Navbar let:hidden let:toggle rounded color="form" style="opacity:85%;" class="fixed top-0">
+<Navbar let:hidden let:toggle rounded color="form" class="fixed top-0 opacity-90">
   <NavBrand href="/">
     <img src={cyberxlg} class="mr-3 h-9 sm:h-11 dark:invert" alt="Logo"/>
-    <span class="self-center whitespace-nowrap text-2xl sm:text-3xl font-semibold dark:text-white">Cyber X</span>
+    <span class="self-center whitespace-nowrap text-2xl sm:text-3xl font-bold dark:text-white">Cyber X</span>
   </NavBrand>
   <NavHamburger on:click={toggle} />
   <NavUl {hidden}>
@@ -26,8 +26,10 @@
 </div>
 
 
+<main class="m-2 p-2">
+  <slot />
+</main>
 
-<slot />
 
 <Footer>
   <FooterCopyright href="https://dajix.vercel.app/" by="d3j1x" year={2023} />
