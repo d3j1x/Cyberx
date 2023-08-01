@@ -2,13 +2,18 @@
     import { Alert } from 'flowbite-svelte';
 </script>
 
-<div class="h-screen mt-24">
-	<h1 class="text-3xl font-semibold">Welcome to CyberX</h1>
+<svelte:head>
+	<title>Cyber X</title>
+	<meta name="description" content="Cyber Security | Secrets - Resources - Hints - Tips ..." />
+</svelte:head>
+
+<div class="mt-16 h-screen">
+	<h1 class="text-3xl font-semibold">Welcome to CyberX.</h1>
 </div>
 
 <div class="text-center p-8">
 	<Alert>
-		<span class="font-medium">Cyberx alert!</span> We Develope.
+		<span>CyberX alert!</span> We Develope.
 	</Alert>
 </div>
 
