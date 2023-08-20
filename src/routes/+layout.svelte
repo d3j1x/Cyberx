@@ -28,7 +28,7 @@
 <div class="mt-16"></div>
 
 
-<main class="font-mono m-1 p-2 rounded-2xl bg-customColorW text-customColorD dark:bg-customColorD dark:text-customColorW">
+<main class="font-mono my-1 p-2 bg-customColorW text-customColorD dark:bg-customColorD dark:text-customColorW">
   <slot />
 </main>
 

@@ -1,5 +1,6 @@
 <script>
     import { Alert } from 'flowbite-svelte';
+	import Terminal from '$lib/components/Terminal.svelte';
 </script>
 
 <svelte:head>
@@ -7,9 +8,12 @@
 	<meta name="description" content="Cyber Security | Secrets - Resources - Hints - Tips ..." />
 </svelte:head>
 
-<div class="mt-16 h-screen">
-	<h1 class="text-3xl font-semibold">Welcome to CyberX.</h1>
+<div class="flex mt-16 justify-center items-center">
+	<!-- <h1 class="text-3xl font-semibold">Welcome to CyberX.</h1> -->
+	<Terminal />
 </div>
+
+
 
 <div class="text-center p-8">
 	<Alert>
