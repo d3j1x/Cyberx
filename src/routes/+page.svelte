@@ -12,15 +12,15 @@
 
 
 <div class="flex justify-center items-center p-8">
-	<Blockquote size="xl" >
-		<Icon name="quote-solid" class="justify-center items-center w-10 h-10 text-gray-400 dark:text-gray-600" />
+	<Blockquote alignment="center" size="xl" >
+		<Icon name="quote-solid" class="w-10 h-10 text-gray-400 dark:text-gray-600" />
 		<span>"Cyber X Is Just Awesome Opensource.
-			<br>Best Cybersecurity Tips Hint Source..."</span>
+			<br>Best Of Cybersecurity Tips Hint Source..."</span>
 	</Blockquote>
 </div>
 
 
-<div class="flex mt-5 justify-center items-center">
+<div class="flex mt-3 justify-center items-center">
 	<!-- <h1 class="text-3xl font-semibold">Welcome to CyberX.</h1> -->
 	<Terminal />
 </div>
