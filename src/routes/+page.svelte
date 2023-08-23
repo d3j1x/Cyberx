@@ -35,7 +35,7 @@
 	  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">There are many opportunities for workers to start and advance their careers within cybersecurity...</p>
 	  <a href="https://www.cyberseek.org/pathway.html" target="_blank" rel="noreferrer">
 		<Button>
-		Read more <Icon name="arrow-right-outline" class="w-3.5 h-3.5 ml-2 text-white" />
+		Explore <Icon name="arrow-right-outline" class="w-3.5 h-3.5 ml-2 text-white" />
 	  </Button>
 	  </a>
 	</Card>
