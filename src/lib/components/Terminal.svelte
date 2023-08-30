@@ -47,7 +47,6 @@
         <span class="button green"></span>
     </div>
     <div class="terminal-body">
-        <p class="font-bold">W E L C O M E</p>
         <p>Type 'help' to see available commands.</p>
     </div>
     
